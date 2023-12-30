@@ -20,16 +20,16 @@ function calculateProfitAndLoss(initial,quantity,current){
     if(initial>current){
         const loss = (initial - current)*quantity;
         const lossPercentage = (loss/initial)*100;
-        showMessage(`loss is ${loss} and percent is ${lossPercentage}%`)
+        showMessage(`Your loss is: ₹${loss} and Your loss percentage is: ${lossPercentage}%`)
         result.style.color="red";
     }else if(current>initial){
         const profit=(current - initial)*quantity;
         const profitPercentage = (profit/initial)*100;
-        showMessage(`Profit is ${profit} and percent is ${profitPercentage}%`) 
+        showMessage(`Your Profit is: ₹${profit} and Your profit percentage is: ${profitPercentage}%`) 
         result.style.color="green";
 
     }else{
-        showMessage('all are equals');
+        showMessage('No profit No loss');
         result.style.color="orange";
 
     }

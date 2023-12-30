@@ -1,18 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profit or Loss</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Calculate Stocks</h1>
-    <input type="number" id="initial-price" placeholder="Enter Initial Price" >
-    <input type="number" id="number-of-stocks" placeholder="Enter Number of Stocks" >
-    <input type="number" id="current-price" placeholder="Enter Current Price" >
-    <button id="calculate-btn">Calculate</button>
-    <div id="output"></div>
+    <div class="container">
+
+        <h1>Calculate Stocks</h1>
+        <div class="input-container">
+            <input type="number" id="initial-price" placeholder="Enter Initial Price">
+        </div>
+        <div class="input-container">
+            <input type="number" id="number-of-stocks" placeholder="Enter Number of Stocks">
+        </div>
+        <div class="input-container">
+            <input type="number" id="current-price" placeholder="Enter Current Price">
+        </div>
+
+        <button id="calculate-btn">Calculate</button>
+
+        <h3 id="output"></h3>
+
+    </div>
+
     <script src="app.js"></script>
 </body>
+
 </html>

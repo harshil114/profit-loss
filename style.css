@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;600;700&display=swap');
+:root{
+    --backgrond-color:#f4f4f4;
+    --background-color2:#ffffff;
+    --font: #370617;
+    --button-color:#6a040f;
+}
+body{
+    font-family: 'Comfortaa', sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: var(--backgrond-color);
+}
+.container{
+    background-color: var(--background-color2);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 600px;
+    width:100%; 
+    box-sizing: border-box;
+}
+h1{
+    color: var(--font);
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+}
+.input-container{
+    margin-top: 20px;    
+}
+#initial-price,#number-of-stocks ,#current-price{
+    padding: 10px;
+    font-family: 'Comfortaa', sans-serif;
+    width: 50%; 
+    border-color: var(--font);  
+}
+#calculate-btn{
+    margin-top: 20px;
+    padding: 15px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: var(--font);
+    cursor: pointer;
+}
+#calculate-btn:hover{
+    background-color: var(--button-color);
+}
+#output{
+    margin-top: 30px;
+}
