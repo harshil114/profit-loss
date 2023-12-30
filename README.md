@@ -15,4 +15,4 @@ The app calculates your net profit/loss amount and net profit/loss percentage.
 - Vanilla JavaScript 
 
 ## Check out the Live App
-[Live App]()
+[Live App](https://stockprofitloss-hv.netlify.app/)
